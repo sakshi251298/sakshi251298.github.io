@@ -1,0 +1,45 @@
+@import "src/scss/globals";
+.experience {
+  .jobs {
+    margin-bottom: 100px;
+  }
+  .job {
+    margin-bottom: 25px;
+    .time-place {
+      display: flex;
+      justify-content: space-between;
+      @include mobile {
+        display: block;
+      }
+    }
+    &__company {
+      font-weight: 700;
+    }
+    &__time {
+      font-size: 0.9rem;
+      font-family: 'Inconsolata', monospace;
+      @include mobile {
+        font-size: 0.8rem;
+      }
+    }
+    &__description {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      li {
+        list-style: disc;
+        margin-left: 20px;
+
+        @include mobile {
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
+  .arrow-link {
+    font-size: 1.25rem;
+    &:after {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
