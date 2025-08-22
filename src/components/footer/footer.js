@@ -4,7 +4,7 @@ import "./footer.scss"
 const socialData = [
   {
     "title": "email",
-    "url": "mailto:patelsakshi1998.@gmail.com"
+    "url": "mailto:sakshipatel2598@gmail.com"
   },
   {
     "title": "linkedin",

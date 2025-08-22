@@ -8,8 +8,8 @@ const introData = {
   name: "Sakshi Patel",
   afterName: ", an aspiring GenAI Engineer and Data Specialist, building intelligent, data-driven systems that automate complex processes with innovative technologies.",
   contact: "Get in touch ",
-  email: "patelsakshi1998@gmail.com",
-  mailTo: "mailto:patelsakshi1998@gmail.com",
+  email: "sakshipatel2598@gmail.com",
+  mailTo: "mailto:sakshipatel2598@gmail.com",
 };
 const Intro = () => {
   const [isHovering, setIsHovering] = React.useState(false);
